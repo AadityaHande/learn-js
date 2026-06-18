@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Character Counter</title>
+  <style>
+    body { font-family: sans-serif; text-align: center; margin-top: 80px; }
+    textarea { width: 400px; height: 120px; font-size: 16px; padding: 10px; }
+    #stats { margin-top: 10px; font-size: 15px; color: #333; }
+    #stats span { font-weight: bold; }
+    .warning { color: red; }
+  </style>
+</head>
+<body>
+  <h2>Character Counter</h2>
+  <textarea id="textInput" placeholder="start typing... (max 200 chars)"></textarea>
+  <p id="stats">
+    Characters: <span id="charCount">0</span> / 200 &nbsp;|&nbsp;
+    Words: <span id="wordCount">0</span>
+  </p>
+  <script src="char-count.js"></script>
+</body>
+</html>
