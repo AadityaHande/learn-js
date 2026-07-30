@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-body-secondary d-flex justify-content-center align-items-center vh-100">
+<div class="card shadow-sm border-0 rounded-4 p-3" style="width:360px;">
+    <!-- Display -->
+    <div class="bg-dark text-white rounded-4 p-3 text-end mb-3">
+        <div id="previousOperand" class="text-secondary small">&nbsp;</div>
+        <div id="currentOperand" class="display-5 fw-semibold">0</div>
+    </div>
+    <!-- Buttons -->
+    <div class="container-fluid p-0 buttons">
+        <div class="row g-2 mb-2">
+            <div class="col-6"><button class="btn btn-danger w-100 py-3" data-action="clear">AC</button></div>
+            <div class="col-3"><button class="btn btn-outline-secondary w-100 py-3" data-action="delete">DEL</button></div>
+            <div class="col-3"><button class="btn btn-secondary w-100 py-3" data-action="divide">÷</button></div>
+        </div>
+        <div class="row g-2 mb-2">
+            <div class="col-3"><button class="btn btn-light border w-100 py-3" data-number>7</button></div>
+            <div class="col-3"><button class="btn btn-light border w-100 py-3" data-number>8</button></div>
+            <div class="col-3"><button class="btn btn-light border w-100 py-3" data-number>9</button></div>
+            <div class="col-3"><button class="btn btn-secondary w-100 py-3" data-action="multiply">×</button></div>
+        </div>
+        <div class="row g-2 mb-2">
+            <div class="col-3"><button class="btn btn-light border w-100 py-3" data-number>4</button></div>
+            <div class="col-3"><button class="btn btn-light border w-100 py-3" data-number>5</button></div>
+            <div class="col-3"><button class="btn btn-light border w-100 py-3" data-number>6</button></div>
+            <div class="col-3"><button class="btn btn-secondary w-100 py-3" data-action="subtract">−</button></div>
+        </div>
+        <div class="row g-2 mb-2">
+            <div class="col-3"><button class="btn btn-light border w-100 py-3" data-number>1</button></div>
+            <div class="col-3"><button class="btn btn-light border w-100 py-3" data-number>2</button></div>
+            <div class="col-3"><button class="btn btn-light border w-100 py-3" data-number>3</button></div>
+            <div class="col-3"><button class="btn btn-secondary w-100 py-3" data-action="add">+</button></div>
+        </div>
+        <div class="row g-2">
+            <div class="col-6"><button class="btn btn-light border w-100 py-3" data-number>0</button></div>
+            <div class="col-3"><button class="btn btn-light border w-100 py-3" data-number>.</button></div>
+            <div class="col-3"><button class="btn btn-primary w-100 py-3" data-action="equals">=</button></div>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
