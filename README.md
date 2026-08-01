@@ -1,14 +1,13 @@
 # JavaScript Learning Journey
 
-A repo documenting my JavaScript learning, from the fundamentals through DOM,
-events, async/fetch, and into real small projects. Everything here is my own
-practice code and notes, not copy-pasted from a course.
+A repo tracking my JavaScript learning, from the fundamentals through DOM,
+events, async/fetch, and into small projects.
 
 ## 📖 About
 
 Each numbered folder is one "topic day", a focused session on one part of
-JS, with working code files + a practice file + my own notes. Once the core
-topics were done, I moved on to actual small projects that combine everything.
+JS, with code files, a practice file, and notes. Once the core topics were
+done, I moved on to small projects that combine everything.
 
 ## 📅 Topic Progress
 
@@ -63,25 +62,23 @@ js-learning/
 ```
 
 Each topic folder has:
-- one or more `.js` files covering that topic, with my own comments/notes inline
+- one or more `.js` files covering that topic, with comments/notes inline
 - a `practice.js` with solved practice questions
-- a `notes.md` with a summary, what confused me, and what I still need to revisit
+- a `notes.md` summarizing the topic, what was confusing, and what still needs revisiting
 
 Each project folder has an `index.html`, a `script.js`, and a `notes.md`
-explaining how I built it and what actually went wrong along the way. Some
-use my own CSS, some (like the to-do app) use Bootstrap instead.
+covering how it was built and what actually went wrong along the way. Some
+use plain CSS, some (like the to-do app) use Bootstrap.
 
 ## 🎯 Goal
 
 Build a solid JavaScript foundation, then move on to React and full stack
-development once these fundamentals are actually solid, not just "watched a
-video about it" solid.
+development.
 
 ## 📌 How I'm learning
 
-Working through one topic at a time, writing all the code myself, and keeping
-honest notes about what I understood vs what I need to revisit. If something doesn't make sense, it goes in the notes file
-so I remember to come back to it.
+One topic at a time, with notes on what clicked and what didn't, so there's
+something to come back to later instead of forgetting it all in a week.
 
 ---
 
