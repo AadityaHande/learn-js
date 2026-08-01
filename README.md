@@ -1,12 +1,12 @@
 # JavaScript Learning Journey
 
-A repo documenting my JavaScript learning — from the fundamentals through DOM,
+A repo documenting my JavaScript learning, from the fundamentals through DOM,
 events, async/fetch, and into real small projects. Everything here is my own
 practice code and notes, not copy-pasted from a course.
 
 ## 📖 About
 
-Each numbered folder is one "topic day" — a focused session on one part of
+Each numbered folder is one "topic day", a focused session on one part of
 JS, with working code files + a practice file + my own notes. Once the core
 topics were done, I moved on to actual small projects that combine everything.
 
@@ -33,7 +33,7 @@ topics were done, I moved on to actual small projects that combine everything.
 |---|---|---|
 | [Calculator](./projects/calculator) | Basic calculator with keyboard support | ✅ |
 | [Stopwatch](./projects/stopwatch) | Start/pause/reset stopwatch with lap tracking | ✅ |
-| To-Do App | Add/remove tasks, saved with localStorage | ⬜ |
+| [To-Do App](./projects/todo-app) | Add/remove/filter tasks, saved with localStorage, styled with Bootstrap | ✅ |
 | Weather App | Live weather using a public API | ⬜ |
 | Quiz App | Multiple choice quiz with score tracking | ⬜ |
 
@@ -57,7 +57,7 @@ js-learning/
 └── projects/
     ├── calculator/
     ├── stopwatch/
-    ├── todo-app/        (coming up)
+    ├── todo-app/
     ├── weather-app/      (coming up)
     └── quiz-app/         (coming up)
 ```
@@ -65,22 +65,22 @@ js-learning/
 Each topic folder has:
 - one or more `.js` files covering that topic, with my own comments/notes inline
 - a `practice.js` with solved practice questions
-- a `notes.md` with a summary + what confused me + what I still need to revisit
+- a `notes.md` with a summary, what confused me, and what I still need to revisit
 
-Each project folder has `index.html` + `style.css` + `script.js` + a `notes.md`
-explaining how I built it and what actually went wrong along the way.
+Each project folder has an `index.html`, a `script.js`, and a `notes.md`
+explaining how I built it and what actually went wrong along the way. Some
+use my own CSS, some (like the to-do app) use Bootstrap instead.
 
 ## 🎯 Goal
 
 Build a solid JavaScript foundation, then move on to React and full stack
-development once these fundamentals are actually solid — not just "watched a
+development once these fundamentals are actually solid, not just "watched a
 video about it" solid.
 
 ## 📌 How I'm learning
 
 Working through one topic at a time, writing all the code myself, and keeping
-honest notes about what I understood vs what I need to revisit. No copy-paste
-from tutorials — if something doesn't make sense, it goes in the notes file
+honest notes about what I understood vs what I need to revisit. If something doesn't make sense, it goes in the notes file
 so I remember to come back to it.
 
 ---
